@@ -1,0 +1,121 @@
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.facebook {
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 220px;
+    background-color: rgb(59, 89, 153);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.instagram {
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 220px;
+    background-color: yellowgreen;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.telegram {
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 220px;
+    background-color: rgb(0, 126, 229);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.youtube {
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 220px;
+    background-color: rgb(205, 32, 31);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: yellow;
+    color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header {
+    background-color: wheat;
+    text-align: center;
+    padding: 25px 50px;
+}
